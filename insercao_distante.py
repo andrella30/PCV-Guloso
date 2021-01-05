@@ -33,7 +33,8 @@ def insercao(ciclo):
             dists.update({aux: distancias[ciclo[aux]][novo_vertice] + distancias[novo_vertice][ciclo[aux + 1]] 
             - distancias[ciclo[aux]][ciclo[aux + 1]]})
         else:
-            dists.update({aux: distancias[ciclo[-1]][novo_vertice] + distancias[novo_vertice][ciclo[0]] - distancias[ciclo[-1]][ciclo[0]] })
+            dists.update({aux: distancias[ciclo[-1]][novo_vertice] + distancias[novo_vertice][ciclo[0]] - 
+            distancias[ciclo[-1]][ciclo[0]] })
 
     #Insere nova aresta no ciclo
     insere = sorted(dists, key = dists.get)  
