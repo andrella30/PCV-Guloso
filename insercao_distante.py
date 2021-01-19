@@ -1,4 +1,4 @@
-#distâncias entre as cidades
+#Distâncias entre as cidades
 distancias = [
    [0, 29, 20, 21, 16, 31, 100, 12, 4, 31, 18],
    [29, 0, 15, 29, 28, 40, 72, 21, 29, 41, 12],
